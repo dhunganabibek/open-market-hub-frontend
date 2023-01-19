@@ -33,4 +33,5 @@ jobs:
     - run: sudo npm install -g yarn
     - run: yarn install
     - run: yarn run build
+    - run: ls
     - run: sudo cp -r /actions-runner-openmarkethub/_work/open-market-hub-frontend/open-market-hub-frontend/out/* /var/www/bibekdhungana.com/personalsite
